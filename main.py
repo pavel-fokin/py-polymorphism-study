@@ -8,7 +8,7 @@ def use_storage(storage):
 
     storage.info()
     storage.add({"pk": 1, "data": "text"})
-    storage.get(1)
+    storage.get(pk=1)
 
 
 if __name__ == "__main__":
